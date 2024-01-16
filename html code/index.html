@@ -10,9 +10,12 @@
             background-color: aliceblue;
             font-family:Verdana, Geneva, Tahoma, sans-serif;
         }
+
+        /* heading line css */
         .image{
             display: flex;
             gap: 20px;
+            justify-content: space-around; 
         }
         .image img{
             width: 45px;
@@ -28,14 +31,93 @@
             color: orangered;
         }
         
+        .nav  a{
+            text-decoration: none;
+            margin-left: 35px;
+            align-items: center;
+            gap: 34px;
+            color: grey;
+            font-size: 20px;
+            font-weight: 450;
+         }
+        .nav{
+            display: flex;
+            margin-top: 20px;
+        }
+         
+        /* home er color lagbe */
+
+        /* background image header */
+        
+        .background-header{
+            background-image: url('../B9A2-Hero-Travel-main/Images/Group\ 13\ \(1\)\ \(1\).png');
+            width: 1150px;
+            height: 520px;
+            background-repeat: no-repeat;
+            border-radius: 15px;
+            align-items: center; 
+            }
+        .background{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .explore-travel{
+           margin: 70px auto auto 290px;
+           color: rgb(255, 255, 255); 
+           align-items: center;
+        }
+        .explore-travel-heading{
+            margin-left: 35px;  
+            font-size: 55px;
+            font-weight: 600;
+        }
+        .explore-travel-paragraph{
+            margin-right: 220px;
+            text-align: center;
+            font-size: 17px;
+            font-weight: 500;
+
+        }
+
+
+         
+
+
+
+
     </style>
 </head>
 <body>
     <header>
         <nav>
             <div class="image">
-                <img src="/B9A2-Hero-Travel-main/Images/Group 40071 (2).png" alt="">
+
+                <div class="image">
+                    <img src="/B9A2-Hero-Travel-main/Images/Group 40071 (2).png" alt="">
                  <h1 class="title">R.R <span class="travels">Travels</span></h1>
+                </div>
+
+                 <div class="nav">
+                    <h4 class="home"><a href="home">Home</a></h4>
+                    <h4><a href="Package">Package</a></h4>
+                    <h4><a href="testmonial">testmonial</a></h4>
+                    <h4><a href="blog">Blog</a></h4>
+                    <h4><a href="contact">Contact</a></h4>
+                 </div>
+            </div>
+
+
+            <div class="background">
+            <div class="background-header">
+                <div class="explore-travel">
+                    <h2 class="explore-travel-heading">Explore Your Travel</h1>
+                    <p class="explore-travel-paragraph">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+                </div>
+                <div>
+                    <h5>Where go</h5>
+                </div>
+            </div>
             </div>
         </nav>
     </header>
