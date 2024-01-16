@@ -46,6 +46,11 @@
         }
          
         /* home er color lagbe */
+        /* .nav .home{
+            background-color: rgb(20, 65, 104);
+            color: orangered;
+            
+        } */
 
         /* background image header */
         
@@ -68,7 +73,7 @@
            align-items: center;
         }
         .explore-travel-heading{
-            margin-left: 35px;  
+            margin-left: 23px;  
             font-size: 55px;
             font-weight: 600;
         }
@@ -77,7 +82,41 @@
             text-align: center;
             font-size: 17px;
             font-weight: 500;
+            color: rgb(255, 255, 255);
+        }
+        .menu-bar{
+            display: flex;
+            align-items: center;
+            /* justify-content: space-evenly;  */
+            /* margin-right: 250px; */
+            margin-left: 180px;
+            margin-top: 110px;
+            gap: 25px;
+            /* border: 2px dotted skyblue; */
+        }
+         
+        .menu-bar-color{
+            width: 170px; 
+            font-size: 18px;
+            font-weight: 300;
+        }
 
+        .menu-bar button:hover{
+            border-radius: 18px;
+            background-color: white;
+            color: grey;
+        }
+        .menu-bar .find-now:hover{
+            background-color: orangered;
+            color: white;
+        }
+        .menu-bar button{
+            border-radius: 13px;
+            color: rgba(19, 19, 24, 0.50);
+        }
+        .menu-bar .find-now{
+            background-color: orangered;
+            color:white;
         }
 
 
@@ -114,17 +153,28 @@
                     <h2 class="explore-travel-heading">Explore Your Travel</h1>
                     <p class="explore-travel-paragraph">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
                 </div>
+                <div class="menu-bar-head">
+                    <div class="menu-bar">
+                        <button><h3 class="menu-bar-color">Where go</h3></button>
+                        <button><h3 class="menu-bar-color">When</h3></button>
+                        <button><h3 class="menu-bar-color">Select type</h3></button>
+                        <button class="find-now"><h3 class="menu-bar-color">Find Now</h3></button>
+                    </div>
+                </div>
                 <div>
-                    <h5>Where go</h5>
+                    
                 </div>
             </div>
             </div>
+
         </nav>
     </header>
 
     <main>
         <article>
-
+            <section>
+                <h1>Our Popular Tours</h1>
+            </section>
         </article>
     </main>
 
