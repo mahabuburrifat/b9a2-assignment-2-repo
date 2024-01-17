@@ -412,9 +412,59 @@
         font-size: 28px;
         font-weight: 800;
      }
-    
+    /* footer section style */
      
+     .footer-title{
+        background-color: rgb(250, 235, 237);
+        height: 510px;
+        width: 100%;
+     }
 
+    .footer-heading{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+    .footer-heading img{
+        width: 45px;
+        height: 48px;
+        margin-top: 22px;
+    }
+
+    .footer-heading p{
+        color: gray;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .footer-body{
+        padding: 70px;
+    }
+    .footer-body hr{
+        margin-top: 70px;
+    }
+    .footer-body .footer-paragraph{
+        margin-top: 50px;
+    }
+    .footer-body .paragraph1{
+        text-align: center;
+        width: 750px;
+        font-size: 15px;
+        font-weight: 500;
+        margin-left: 240px;
+    }
+    .footer-body .finish{
+        color: black;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        margin-left: 450px;
+    }
+    /* media device style*/
+
+
+    
     </style>
 </head>
 <body>
@@ -636,7 +686,7 @@
                     </section>
                     <section class="video">
                         <div>
-                            <video controls src="/B9A2-Hero-Travel-main/Images/Group 40089.png">video</video>
+                        <video controls src="/B9A2-Hero-Travel-main/Images/Group 40089.png">video</video>
                         </div>
                     </section>
                 </article>
@@ -670,13 +720,38 @@
         </article>
     </main>
 
-    <footer>
-        <header>
-            <nav>
+    <footer class="footer-title">
+        <header class="footer-body">
+            <nav class="footer-heading">
                 <div>
-                    
+                    <img src="/B9A2-Hero-Travel-main/Images/Group 40071 (2).png" alt="">
+                </div>
+                <div>
+                    <h1>M.R <span class="title">Travels</span></h1>
                 </div>
             </nav>
+            <div>
+                <p class="paragraph1">Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam. </p>
+            </div>
+             
+            <nav class="footer-heading">
+                <div>
+                    <img src="/image icon/th (3).jpeg" alt="">
+                </div>
+                <div>
+                    <img src="/image icon/th (4).jpeg" alt="">
+                </div>
+                <div>
+                    <img src="/image icon/th (5).jpeg" alt="">
+                </div>
+                <div>
+                    <img src="/image icon/th (7).jpeg" alt="">
+                </div>
+            </nav>
+            <hr>
+            <p class="footer-paragraph">
+                <small class="finish"> @2017, All Rights Reserved.</small>
+            </p>
         </header>
     </footer>
 </body>
