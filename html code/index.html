@@ -21,6 +21,7 @@
             width: 45px;
             height: 55px;
             margin-top: 20px;
+            margin-left: 22px;
         }
         h1{
             color: black;
@@ -33,12 +34,11 @@
         
         .nav  a{
             text-decoration: none;
-            margin-left: 35px;
+            margin-left: 75px;
             align-items: center;
-            gap: 34px;
             color: grey;
             font-size: 20px;
-            font-weight: 450;
+            font-weight: 550;
          }
         .nav{
             display: flex;
@@ -55,11 +55,11 @@
         
         .background-header{
             background-image: url('../B9A2-Hero-Travel-main/Images/Group\ 13\ \(1\)\ \(1\).png');
-            width: 1170px;
-            height: 520px;
+            width: 100%;
+            height: 550px;
             background-repeat: no-repeat;
             border-radius: 15px;
-            align-items: center; 
+            margin-left: 80px;
             }
         .background{
             display: flex;
@@ -105,7 +105,7 @@
             background-color: white;
             color: white;
         }
-        
+
         .menu-bar .find-now:hover{
             background-color: orangered;
             color: white;
@@ -131,7 +131,6 @@
 
     .popular-text-side{
         margin-left: 80px;
-        /* width: 800px; */
     }
 
     section > div img{
@@ -306,7 +305,7 @@
     .get-loss{
         width: 540px;
         height: 380px;
-        margin-left: 80px;
+        margin-left: 5px;
         margin-top: 45px; 
     }
     
@@ -327,9 +326,10 @@
 
     .perfect-place{
         display: flex;
-        gap: 95px;
-        
+        gap: px;
+        justify-content: space-evenly;  
     }
+    
     section .heading{
         font-size: 42px;
         font-weight: 850;
@@ -340,6 +340,78 @@
     }
 /* form section style */
 
+    .form{
+        width: 430px;
+        height: 450px;
+        margin-left: 70px; 
+        margin-top: 150px;
+    }
+    .form input{
+        width: 350px;
+        height: 35px;
+        margin-top: 15px;
+        border-radius: 9px;
+        color: rgb(116, 114, 112);
+    }
+     .form .btn input {
+        height: 55px;
+        background-color: orangered;
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+     }
+     .form .input-text input{
+        background-color: rgb(241, 241, 241);
+        color: rgb(70, 67, 67);
+        font-size: 16px;
+        font-weight: 600;
+        padding: 10px;
+     }
+     .form h1{
+        font-size: 42px;
+        font-weight: 900;
+        color: rgb(70, 67, 67);
+     }
+     .form p{
+        font-size: 18px;
+        color: rgb(70, 67, 67);
+        font-weight: 500;
+     }
+     .form-header{
+        margin-top: 50px;
+        display: flex;
+        gap: 108px;
+     }
+
+     .form-image{
+        background-image: url('../B9A2-Hero-Travel-main/Images/Rectangle\ 8\ \(1\).png');
+        background-repeat: no-repeat;
+        width: 640px;
+        height: 550px; 
+        margin-top: 180px;
+        border-radius: 15px;
+     }
+     .upto-offer{
+        background-color: orangered;
+        width: 310px;
+        height: 130px;
+        transform: rotate(-20.628deg);
+        border-radius: 18px;
+        margin: 230px 305px;
+     }
+     .upto-offer p{
+        color: white;
+        text-align: center;
+        font-size: 19px;
+        font-weight: 500;
+        padding: 15px;
+     }
+     .upto-offer h2{
+        color: white;
+        text-align: center;
+        font-size: 28px;
+        font-weight: 800;
+     }
     
      
 
@@ -568,12 +640,44 @@
                         </div>
                     </section>
                 </article>
+                
+                <article class="form-header">
+                    <section class="form">
+                        <div>
+                            <h1>Newsletter</h1>
+                            <p>Get your daily dose of travel news & tips. Sign up today!</p>
+                        
+                        <hr>
+                            <div class="input-text">
+                            <input type="text" placeholder="Enter your name">
+                            <input required type="email" name="" id="" placeholder="Enter your email">
+                            </div>
+                            <div class="btn">
+                                    <input required type="button" value="Subscribe">
+                            </div>
+                            
+                        </div>
+                    </section>
 
+                    <section class="form-image">
+                            <div class="upto-offer">
+                                <p>Travel.com</p>
+                                <h2>Save up to 70%</h2>
+                            </div>
+                        
+                    </section>
+                </article>
         </article>
     </main>
 
     <footer>
-
+        <header>
+            <nav>
+                <div>
+                    
+                </div>
+            </nav>
+        </header>
     </footer>
 </body>
 </html>
